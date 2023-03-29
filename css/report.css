@@ -207,8 +207,9 @@ a:link {
   margin: 30px auto 30px auto;
   padding: 10px 20px 10px 20px;
   border-radius: 25px;
-  border-color: lightslategray;
+  border-color: gold;
   background-color: white;
+  font-weight:900;
   width: 60%;
 }
 
@@ -308,19 +309,7 @@ a:link {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-/* 
-search funtion
+/* search funtion */
 .searchTitleCSS {
   margin: 2px 10px 10px 15px;
   padding: 8px;
@@ -356,7 +345,7 @@ search funtion
 }
 
 .submitBtn:hover {
-  color: white;
+  /* color: white; */
   background-color: gold;
   box-shadow: 0 0 3px;
 
@@ -380,7 +369,7 @@ search funtion
 }
 
 
-searchbar
+/* searchbar */
 .navOfLogs {
   display: flex;
   font-size: 40px;
@@ -415,9 +404,26 @@ searchbar
 
 }
 
-rating
+/* rating */
 .ratingScore {
   width: 50%;
   margin-left: 13%;
   padding: 8px;
-} */
+}
+
+.openfeedback {
+  width: auto;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
+    url("../assets/img/background/reportImage.png");
+  opacity: 1;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 34px 0 490px 0;
+}
+
+.openfeedback h1 {
+  color: #ffffff;
+}

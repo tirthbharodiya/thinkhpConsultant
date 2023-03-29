@@ -1,20 +1,14 @@
 <?php include "../../helper/db.php";
 
 
-
-
-
-
 if (isset($_GET['feedbackId'])) {
     $feedbackId = $_GET['feedbackId'];
-    $checked=$_GET['checkedId'];
-    echo $checked;
 
     $query = "SELECT * FROM feedback WHERE id = $feedbackId";
     $result = mysqli_query($conn, $query);
     $row = mysqli_num_rows($result);
 
-  
+
     // fihauifahf 
     $checkQuery = "SELECT * FROM feedback WHERE isChecked = 1 ";
     $checkResult = mysqli_query($conn, $checkQuery);

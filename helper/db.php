@@ -1,14 +1,14 @@
 <?php
 
-// $servername = "sql946.main-hosting.eu";
-// $username = "u839608378_thinkhp";
-// $password = "ThinkDM001@";
-// $database = "u839608378_thinkhp_base";
+$servername = "sql946.main-hosting.eu";
+$username = "u839608378_thinkhp";
+$password = "ThinkDM001@";
+$database = "u839608378_thinkhp_base";
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$database = "thinkhp";
+// $servername = "localhost";
+// $username = "root";
+// $password = "";
+// $database = "thinkhp_base";
 
 $conn = mysqli_connect($servername,$username,$password,$database);
 

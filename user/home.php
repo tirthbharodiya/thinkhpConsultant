@@ -1,5 +1,6 @@
 <?php include "../header.php"; ?>
 <link href="../css/styles.css" rel="stylesheet" />
+<script src ="../js/scripts.js"></script>
 </head>
 
 <?php include "../helper/db.php"; ?>

@@ -6,7 +6,7 @@ if ($_SESSION['user_role'] != 'admin') {
 ?>
 
 <?php include "../../header.php"; ?>
-<link href="../../css/report.css" rel="stylesheet" />
+<link href="../../css/styles.css" rel="stylesheet" />
 </head>
 
 <body>

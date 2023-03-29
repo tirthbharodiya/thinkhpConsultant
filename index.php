@@ -368,6 +368,7 @@ if (isset($_SESSION['user_id'])) {
     <!-- feedback-->
     <section class="page-section" id="feedback">
         <div class="container">
+            <section class="publicFeedback" ></section>
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">feedback</h2>
                 <h3 class="section-subheading text-muted">THINKHP CONSULTANT</h3>
